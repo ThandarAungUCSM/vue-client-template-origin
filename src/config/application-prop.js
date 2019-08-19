@@ -1,0 +1,11 @@
+const VUE_DEBUG_MODE = true
+const LOGGER_DEBUG_MODE = true
+const SERVICE_API_URL = 'http://localhost:8090/api/'
+const TIMEOUT_REQUESTER = 3600000
+
+export {
+    VUE_DEBUG_MODE,
+    LOGGER_DEBUG_MODE,
+    SERVICE_API_URL,
+    TIMEOUT_REQUESTER
+  }

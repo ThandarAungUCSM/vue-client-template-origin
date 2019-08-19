@@ -1,0 +1,52 @@
+// 
+//   color variable
+//
+
+// white 255 255 255
+$base-color-lightest: rgb(255, 255, 255);
+// lightest gray 246 246 246
+$base-color-lighter: rgb(246, 246, 246);
+// lighter gray 221, 221, 221
+$base-color-light:  rgb(221, 221, 221);
+// gray
+$base-color-dark: rgb(204, 204, 204);
+// dark gray
+$base-color-darker: rgb(51, 51, 51);
+// black
+$base-color-darkest: rgb(0, 0, 0);
+// return gray scale color
+@function baseColor($lightness) {
+	@return rgb($lightness, $lightness, $lightness);
+}
+
+//Main color: blue
+//blue
+$main-color: rgb(91, 152, 181);
+//light blue
+$main-color-light: rgb(179, 207, 221);
+
+//Accent color: green
+//green
+$accent-color-main: rgb(105, 156, 35);
+//gray for header login button
+$accent-color-sub: rgb(85, 85, 85);
+
+//Attentive red_color
+//red
+$error-color: rgb(249, 45, 67);
+//green
+$info-color: rgb(255, 0, 0);
+
+
+//other color
+
+
+//
+// font variable
+//
+
+// font family
+$font-family: "Yu Gothic", YuGothic, arial, "游ゴシック体", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, sans-serif;
+
+
+
